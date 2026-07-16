@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/admin",
+      "destination": "/admin.html"
+    }
+  ],
+  "functions": {
+    "api/chat.js": {
+      "maxDuration": 30
+    }
+  }
+}
